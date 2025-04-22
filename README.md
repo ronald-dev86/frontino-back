@@ -5,7 +5,7 @@
 ![Firebase](https://img.shields.io/badge/firebase-%23FFCA28.svg?style=for-the-badge&logo=firebase&logoColor=gray)
 ![Firestore](https://img.shields.io/badge/Firestore-FFCA28?style=for-the-badge&logo=firestore&logoColor=white)
 ![pnpm](https://img.shields.io/badge/pnpm-%23F69220.svg?style=for-the-badge&logo=pnpm&logoColor=white)
-![Hexagonal](https://img.shields.io/badge/arquitectura-hexagonal-red
+![Hexagonal](https://img.shields.io/badge/arquitectura-hexagonal-red?style=for-the-badge
 )
 
 Esta es la documentación para la API REST de **Frontino**. Esta API está construida utilizando **Node.js** y **TypeScript**, con **Firebase Firestore** como su base de datos. El gestor de paquetes utilizado es **pnpm**.
