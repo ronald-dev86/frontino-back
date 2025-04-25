@@ -2,6 +2,7 @@ import express from 'express';
 
 import { UserRoute } from '../../users/infrastructure/routes/UserRoute';
 import { AuthRoute } from '../../auth/infrastruture/routes/AuthRoute';
+import { ClientRoute } from '../../clients/infractucture/routes/ClientRoute';
 export class App {
   public app: express.Application;
 
@@ -19,6 +20,7 @@ export class App {
     
     this.app.use('/api', new UserRoute().router);
     this.app.use('/api', new AuthRoute().router);
+    this.app.use('/api', new ClientRoute().router);
     
   }
 }
