@@ -1,3 +1,3 @@
 export interface DeleteGasCylinderRepository {
-    delete(id: string): Promise<void>;
+    handle(id: string): Promise<void>;
 }

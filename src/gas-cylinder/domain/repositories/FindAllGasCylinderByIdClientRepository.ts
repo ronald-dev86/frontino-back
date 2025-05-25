@@ -1,3 +1,3 @@
 export interface FindAllGasCylinderByIdClientRepository {
-    execute(idClient: string): Promise<any>;
+    handle(idClient: string): Promise<any>;
 }

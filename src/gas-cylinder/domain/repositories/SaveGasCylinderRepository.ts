@@ -1,5 +1,6 @@
-import { GasCylinder } from "../../../clients/domain/value-object/GasCylinder";
+import { GasCylinderRefill } from "../model/GasCylinderRefill";
+
 
 export interface SaveGasCylinderRepository {
-    handle(payload: GasCylinder): Promise<void>
+    handle(payload:GasCylinderRefill ): Promise<void>
 }
